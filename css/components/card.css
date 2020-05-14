@@ -1,0 +1,28 @@
+.card-item {
+  box-shadow: 0 0 4px rgba(80,80,80,0.4);
+  width: 150px;
+  height: 180px;
+  background-color: white;
+  border-radius: 3px;
+  padding: 20px 10px 45px 10px;
+  color: #332b2f;
+  flex-shrink: 1;
+}
+
+.card-item img {
+  width: 70%;
+  height: 50%;
+}
+
+.card-item p {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+}

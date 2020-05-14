@@ -1,0 +1,24 @@
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social i {
+  font-size: 2em;
+  color: #332b2f;
+  transition: 0.2s ease;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.social i:hover {
+  color: #ec5597;
+  cursor: pointer;
+}
+.social {
+  text-align: center;
+}
+
+footer p {
+  color: rgba(51, 43, 47, 0.7);
+}
